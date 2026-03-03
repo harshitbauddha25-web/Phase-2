@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <title> Submit Feedback</title>
+         <link rel="stylesheet" href="New folder/feedback.css">
+</head>
+<body>
+    <header>
+        <h1>Submit Feedback</h1>
+        <hr>
+    </header>
+
+     <nav>
+        <ul>
+            <li><a href="1 home.html"> Home</a></li>
+            <li><a href="2 Profile.html"> Profile</a></li>
+            <li><a href="3 courses.html"> Courses</a></li>
+            <li><a href="4 grades.html"> Grades</a></li>
+            <li><a href="5 feedback.html"> Feedback</a></li>
+            <li><a href="6 ContactPage.html"> Contact Page</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Write Your Name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder=" Write Your Email Here"><br><br>
+
+            <label>Course Type:</label><br>
+            <input type="radio" NAME="COURSE"  value="HTML">html
+             
+            <input type="radio" NAME="COURSE"  value="CSS">CSS
+            
+            <input type="radio" NAME="COURSE"  value="JavaScript">JavaScript
+             <br><br>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select><br><br>
+
+            <!-- <label for="Category">Category*</label>
+            <select name="category" id="category">
+            <option value="UR">UR</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="EWS">EWS</option></select><br><br> -->
+
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" rows="4" cols="50"></textarea><br><br>
+
+            <label for="subscribe">Subscribe for updates</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <br><br>
+
+            <!-- <button type="submit">Submit</button> -->
+             <input type="submit" value="Submit">
+             <input type="reset" value="Reset">
+            <!-- <button type="reset">Reset</button> -->
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Portal Project</p>
+    </footer>
+</body>
+</html>
